@@ -2,3 +2,9 @@ H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Common\bin\Debug\Yckj
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Common\bin\Debug\Yckj.YcFdyth.Common.pdb
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.dll
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.pdb
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\bin\Debug\Yckj.YcFdyth.Common.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\bin\Debug\Yckj.YcFdyth.Common.pdb
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.csprojAssemblyReference.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.csproj.CoreCompileInputs.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.pdb

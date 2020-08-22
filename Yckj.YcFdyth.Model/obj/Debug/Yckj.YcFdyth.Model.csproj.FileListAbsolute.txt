@@ -9,3 +9,16 @@ H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\bin\Debug\Entit
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.SqlServer.xml
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.csprojResolveAssemblyReference.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.dll.config
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.pdb
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.xml
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.csprojAssemblyReference.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.csproj.CoreCompileInputs.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.csproj.CopyComplete
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.pdb

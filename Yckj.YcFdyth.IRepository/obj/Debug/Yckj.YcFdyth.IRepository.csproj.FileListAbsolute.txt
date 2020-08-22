@@ -8,3 +8,16 @@ H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.xml
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csprojResolveAssemblyReference.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.pdb
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.pdb
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.dll.config
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.xml
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csprojAssemblyReference.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csproj.CoreCompileInputs.cache
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csproj.CopyComplete
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.dll
+C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.pdb
