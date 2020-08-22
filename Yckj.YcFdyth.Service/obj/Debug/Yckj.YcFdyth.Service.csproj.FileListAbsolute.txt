@@ -1,0 +1,4 @@
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Service.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Service.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\obj\Debug\Yckj.YcFdyth.Service.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\obj\Debug\Yckj.YcFdyth.Service.pdb

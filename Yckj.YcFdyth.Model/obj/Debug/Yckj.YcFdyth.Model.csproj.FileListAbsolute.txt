@@ -1,0 +1,5 @@
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.csprojResolveAssemblyReference.cache
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.pdb

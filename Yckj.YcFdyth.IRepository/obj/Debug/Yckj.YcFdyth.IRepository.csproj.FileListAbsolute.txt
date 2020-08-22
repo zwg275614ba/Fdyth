@@ -1,0 +1,5 @@
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csprojResolveAssemblyReference.cache
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.pdb

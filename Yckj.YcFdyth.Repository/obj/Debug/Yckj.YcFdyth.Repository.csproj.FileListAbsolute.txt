@@ -1,0 +1,4 @@
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Repository\bin\Debug\Yckj.YcFdyth.Repository.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Repository\bin\Debug\Yckj.YcFdyth.Repository.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Repository\obj\Debug\Yckj.YcFdyth.Repository.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Repository\obj\Debug\Yckj.YcFdyth.Repository.pdb
