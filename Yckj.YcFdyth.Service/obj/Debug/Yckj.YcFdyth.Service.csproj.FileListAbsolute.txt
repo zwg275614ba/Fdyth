@@ -2,3 +2,15 @@ H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yck
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Service.pdb
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\obj\Debug\Yckj.YcFdyth.Service.dll
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\obj\Debug\Yckj.YcFdyth.Service.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\obj\Debug\Yckj.YcFdyth.Service.csprojResolveAssemblyReference.cache
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.IRepository.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.IService.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Model.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Repository.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\EntityFramework.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.IRepository.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.IService.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Model.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\Yckj.YcFdyth.Repository.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\EntityFramework.xml
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.Service\bin\Debug\zh-Hans\EntityFramework.resources.dll

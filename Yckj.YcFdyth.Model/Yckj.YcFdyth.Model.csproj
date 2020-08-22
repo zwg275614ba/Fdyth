@@ -30,8 +30,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,7 +51,74 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TableModel\BDC分摊方式表.cs" />
+    <Compile Include="TableModel\BDC功能分类表.cs" />
+    <Compile Include="TableModel\BDC层分摊处理表.cs" />
+    <Compile Include="TableModel\BDC户型分摊关联表.cs" />
+    <Compile Include="TableModel\BDC户型表.cs" />
+    <Compile Include="TableModel\BDC附属建筑类别表.cs" />
+    <Compile Include="TableModel\BDC附属建筑记录表.cs" />
+    <Compile Include="TableModel\C.cs" />
+    <Compile Include="TableModel\FDCQ2.cs" />
+    <Compile Include="TableModel\files_文件目录.cs" />
+    <Compile Include="TableModel\H.cs" />
+    <Compile Include="TableModel\LJZ.cs" />
+    <Compile Include="TableModel\prjs_项目类别.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableModel\QLR.cs" />
+    <Compile Include="ViewModel\v_01_01_套内主体面积统计表.cs" />
+    <Compile Include="ViewModel\v_01_02_套内附属建筑面积详表统计.cs" />
+    <Compile Include="ViewModel\v_01_03_套内主体附属面积统计表.cs" />
+    <Compile Include="ViewModel\v_01_04_户型分摊系数.cs" />
+    <Compile Include="ViewModel\v_02_01_01_附属建筑共用分摊统计.cs" />
+    <Compile Include="ViewModel\v_02_01_共用附属建筑分摊面积统计表.cs" />
+    <Compile Include="ViewModel\v_500_01_BDC户型表.cs" />
+    <Compile Include="ViewModel\v_500_02_BDC附属建筑记录表.cs" />
+    <Compile Include="ViewModel\v_500_03_BDC户型分摊关联表.cs" />
+    <Compile Include="ViewModel\v_99_00_BDC户型表.cs" />
+    <Compile Include="ViewModel\v_99_01_BDC户型分摊关联表.cs" />
+    <Compile Include="ViewModel\v_99_02_BDC附属建筑记录表.cs" />
+    <Compile Include="ViewModel\v_99_03_BDC层分摊处理表.cs" />
+    <Compile Include="ViewModel\v_files_文件目录.cs" />
+    <Compile Include="YcFdythModel.cs" />
+    <Compile Include="TableModel\ZDJBXX.cs" />
+    <Compile Include="TableModel\ZRZ.cs" />
+    <Compile Include="TableModel\安置点关联表.cs" />
+    <Compile Include="TableModel\安置点表.cs" />
+    <Compile Include="TableModel\用户表.cs" />
+    <Compile Include="DictionaryModel\表11不动产单元状态字典.cs" />
+    <Compile Include="DictionaryModel\表15户型字典.cs" />
+    <Compile Include="DictionaryModel\表16户型结构字典.cs" />
+    <Compile Include="DictionaryModel\表17房屋用途字典.cs" />
+    <Compile Include="DictionaryModel\表18房屋类型字典.cs" />
+    <Compile Include="DictionaryModel\表19房屋性质字典.cs" />
+    <Compile Include="DictionaryModel\表20区县字典.cs" />
+    <Compile Include="DictionaryModel\表22权属状态字典.cs" />
+    <Compile Include="DictionaryModel\表26建设用地使用权JSYDSYQ.cs" />
+    <Compile Include="DictionaryModel\表27房地产权_多幢_FDCQ1.cs" />
+    <Compile Include="DictionaryModel\表28房地产权_多幢_FDCQ1.cs" />
+    <Compile Include="DictionaryModel\表30证件种类字典.cs" />
+    <Compile Include="DictionaryModel\表34共有方式字典.cs" />
+    <Compile Include="DictionaryModel\表35国家和地区字典.cs" />
+    <Compile Include="DictionaryModel\表36权利人类型字典.cs" />
+    <Compile Include="DictionaryModel\表38省市字典.cs" />
+    <Compile Include="DictionaryModel\表41所属行业字典.cs" />
+    <Compile Include="DictionaryModel\表43性别字典.cs" />
+    <Compile Include="DictionaryModel\表44宗地宗海特征码字典.cs" />
+    <Compile Include="DictionaryModel\表46房屋结构字典.cs" />
+    <Compile Include="DictionaryModel\表47建筑物状态字典.cs" />
+    <Compile Include="DictionaryModel\表53所有权类型字典.cs" />
+    <Compile Include="DictionaryModel\表54定着物物特征码字典.cs" />
+    <Compile Include="DictionaryModel\表59土地用途代码.cs" />
+    <Compile Include="DictionaryModel\表7面积单位字典.cs" />
+    <Compile Include="DictionaryModel\表99共有建筑面积类别.cs" />
+    <Compile Include="DictionaryModel\表99建筑面积计算比例.cs" />
+    <Compile Include="DictionaryModel\表99扶贫搬迁点.cs" />
+    <Compile Include="TableModel\资料上传记录.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

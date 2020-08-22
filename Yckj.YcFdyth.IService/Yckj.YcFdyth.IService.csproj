@@ -40,7 +40,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IBaseService\IBaseService.cs" />
+    <Compile Include="IService\Dictionary\I表11不动产单元状态字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表15户型字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表16户型结构字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表17房屋用途字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表18房屋类型字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表19房屋性质字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表20区县字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表22权属状态字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表26建设用地使用权JSYDSYQService.cs" />
+    <Compile Include="IService\Dictionary\I表27房地产权_多幢_FDCQ1Service.cs" />
+    <Compile Include="IService\Dictionary\I表28房地产权_多幢_FDCQ1Service.cs" />
+    <Compile Include="IService\Dictionary\I表30证件种类字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表34共有方式字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表35国家和地区字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表36权利人类型字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表38省市字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表41所属行业字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表43性别字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表44宗地宗海特征码字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表46房屋结构字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表47建筑物状态字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表53所有权类型字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表54定着物物特征码字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表59土地用途代码Service.cs" />
+    <Compile Include="IService\Dictionary\I表7面积单位字典Service.cs" />
+    <Compile Include="IService\Dictionary\I表99共有建筑面积类别Service.cs" />
+    <Compile Include="IService\Dictionary\I表99建筑面积计算比例Service.cs" />
+    <Compile Include="IService\Dictionary\I表99扶贫搬迁点Service.cs" />
+    <Compile Include="IService\Table\IBDC分摊方式表Service.cs" />
+    <Compile Include="IService\Table\IBDC功能分类表Service.cs" />
+    <Compile Include="IService\Table\IBDC层分摊处理表Service.cs" />
+    <Compile Include="IService\Table\IBDC户型分摊关联表Service.cs" />
+    <Compile Include="IService\Table\IBDC户型表Service.cs" />
+    <Compile Include="IService\Table\IBDC附属建筑类别表Service.cs" />
+    <Compile Include="IService\Table\IBDC附属建筑记录表Service.cs" />
+    <Compile Include="IService\Table\ICService.cs" />
+    <Compile Include="IService\Table\IFDCQ2Service.cs" />
+    <Compile Include="IService\Table\Ifiles_文件目录Service.cs" />
+    <Compile Include="IService\Table\IHService.cs" />
+    <Compile Include="IService\Table\ILJZService.cs" />
+    <Compile Include="IService\Table\Iprjs_项目类别Service.cs" />
+    <Compile Include="IService\Table\IQLRService.cs" />
+    <Compile Include="IService\Table\IZDJBXXService.cs" />
+    <Compile Include="IService\Table\IZRZService.cs" />
+    <Compile Include="IService\Table\I安置点关联表Service.cs" />
+    <Compile Include="IService\Table\I安置点表Service.cs" />
+    <Compile Include="IService\Table\I用户表Service.cs" />
+    <Compile Include="IService\Table\I资料上传记录Service.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yckj.YcFdyth.IRepository\Yckj.YcFdyth.IRepository.csproj">
+      <Project>{b11947f9-4bd6-427a-a571-bfd4093366ee}</Project>
+      <Name>Yckj.YcFdyth.IRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yckj.YcFdyth.Model\Yckj.YcFdyth.Model.csproj">
+      <Project>{13174402-752f-48cf-8e66-0df3618647e3}</Project>
+      <Name>Yckj.YcFdyth.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

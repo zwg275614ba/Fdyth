@@ -40,7 +40,62 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseRepository\IBaseRepository.cs" />
+    <Compile Include="IRepository\Dictionary\I表11不动产单元状态字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表15户型字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表16户型结构字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表17房屋用途字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表18房屋类型字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表19房屋性质字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表20区县字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表22权属状态字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表26建设用地使用权JSYDSYQRepository.cs" />
+    <Compile Include="IRepository\Dictionary\I表27房地产权_多幢_FDCQ1Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表28房地产权_多幢_FDCQ1Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表30证件种类字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表34共有方式字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表35国家和地区字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表36权利人类型字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表38省市字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表41所属行业字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表43性别字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表44宗地宗海特征码字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表46房屋结构字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表47建筑物状态字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表53所有权类型字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表54定着物物特征码字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表59土地用途代码Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表7面积单位字典Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表99共有建筑面积类别Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表99建筑面积计算比例Repository.cs" />
+    <Compile Include="IRepository\Dictionary\I表99扶贫搬迁点Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC分摊方式表Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC功能分类表Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC层分摊处理表Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC户型分摊关联表Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC户型表Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC附属建筑类别表Repository.cs" />
+    <Compile Include="IRepository\Table\IBDC附属建筑记录表Repository.cs" />
+    <Compile Include="IRepository\Table\ICRepository.cs" />
+    <Compile Include="IRepository\Table\IFDCQ2Repository.cs" />
+    <Compile Include="IRepository\Table\Ifiles_文件目录Repository.cs" />
+    <Compile Include="IRepository\Table\IHRepository.cs" />
+    <Compile Include="IRepository\Table\ILJZRepository.cs" />
+    <Compile Include="IRepository\Table\Iprjs_项目类别Repository.cs" />
+    <Compile Include="IRepository\Table\IQLRRepository.cs" />
+    <Compile Include="IRepository\Table\IZDJBXXRepository.cs" />
+    <Compile Include="IRepository\Table\IZRZRepository.cs" />
+    <Compile Include="IRepository\Table\I安置点关联表Repository.cs" />
+    <Compile Include="IRepository\Table\I安置点表Repository.cs" />
+    <Compile Include="IRepository\Table\I用户表Repository.cs" />
+    <Compile Include="IRepository\Table\I资料上传记录Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yckj.YcFdyth.Model\Yckj.YcFdyth.Model.csproj">
+      <Project>{13174402-752f-48cf-8e66-0df3618647e3}</Project>
+      <Name>Yckj.YcFdyth.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

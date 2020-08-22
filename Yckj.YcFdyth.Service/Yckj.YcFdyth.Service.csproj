@@ -40,8 +40,76 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseService\BaseService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\Dictionary\表11不动产单元状态字典Service.cs" />
+    <Compile Include="Service\Dictionary\表15户型字典Service.cs" />
+    <Compile Include="Service\Dictionary\表16户型结构字典Service.cs" />
+    <Compile Include="Service\Dictionary\表17房屋用途字典Service.cs" />
+    <Compile Include="Service\Dictionary\表18房屋类型字典Service.cs" />
+    <Compile Include="Service\Dictionary\表19房屋性质字典Service.cs" />
+    <Compile Include="Service\Dictionary\表20区县字典Service.cs" />
+    <Compile Include="Service\Dictionary\表22权属状态字典Service.cs" />
+    <Compile Include="Service\Dictionary\表26建设用地使用权JSYDSYQService.cs" />
+    <Compile Include="Service\Dictionary\表27房地产权_多幢_FDCQ1Service.cs" />
+    <Compile Include="Service\Dictionary\表28房地产权_多幢_FDCQ1Service.cs" />
+    <Compile Include="Service\Dictionary\表30证件种类字典Service.cs" />
+    <Compile Include="Service\Dictionary\表34共有方式字典Service.cs" />
+    <Compile Include="Service\Dictionary\表35国家和地区字典Service.cs" />
+    <Compile Include="Service\Dictionary\表36权利人类型字典Service.cs" />
+    <Compile Include="Service\Dictionary\表38省市字典Service.cs" />
+    <Compile Include="Service\Dictionary\表41所属行业字典Service.cs" />
+    <Compile Include="Service\Dictionary\表43性别字典Service.cs" />
+    <Compile Include="Service\Dictionary\表44宗地宗海特征码字典Service.cs" />
+    <Compile Include="Service\Dictionary\表46房屋结构字典Service.cs" />
+    <Compile Include="Service\Dictionary\表47建筑物状态字典Service.cs" />
+    <Compile Include="Service\Dictionary\表53所有权类型字典Service.cs" />
+    <Compile Include="Service\Dictionary\表54定着物物特征码字典Service.cs" />
+    <Compile Include="Service\Dictionary\表59土地用途代码Service.cs" />
+    <Compile Include="Service\Dictionary\表7面积单位字典Service.cs" />
+    <Compile Include="Service\Dictionary\表99共有建筑面积类别Service.cs" />
+    <Compile Include="Service\Dictionary\表99建筑面积计算比例Service.cs" />
+    <Compile Include="Service\Dictionary\表99扶贫搬迁点Service.cs" />
+    <Compile Include="Service\Table\BDC分摊方式表Service.cs" />
+    <Compile Include="Service\Table\BDC功能分类表Service.cs" />
+    <Compile Include="Service\Table\BDC层分摊处理表Service.cs" />
+    <Compile Include="Service\Table\BDC户型分摊关联表Service.cs" />
+    <Compile Include="Service\Table\BDC户型表Service.cs" />
+    <Compile Include="Service\Table\BDC附属建筑类别表Service.cs" />
+    <Compile Include="Service\Table\BDC附属建筑记录表Service.cs" />
+    <Compile Include="Service\Table\CService.cs" />
+    <Compile Include="Service\Table\FDCQ2Service.cs" />
+    <Compile Include="Service\Table\files_文件目录Service.cs" />
+    <Compile Include="Service\Table\HService.cs" />
+    <Compile Include="Service\Table\LJZService.cs" />
+    <Compile Include="Service\Table\prjs_项目类别Service.cs" />
+    <Compile Include="Service\Table\QLRService.cs" />
+    <Compile Include="Service\Table\ZDJBXXService.cs" />
+    <Compile Include="Service\Table\ZRZService.cs" />
+    <Compile Include="Service\Table\安置点关联表Service.cs" />
+    <Compile Include="Service\Table\安置点表Service.cs" />
+    <Compile Include="Service\Table\用户表Service.cs" />
+    <Compile Include="Service\Table\资料上传记录Service.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Yckj.YcFdyth.IRepository\Yckj.YcFdyth.IRepository.csproj">
+      <Project>{b11947f9-4bd6-427a-a571-bfd4093366ee}</Project>
+      <Name>Yckj.YcFdyth.IRepository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yckj.YcFdyth.IService\Yckj.YcFdyth.IService.csproj">
+      <Project>{54e2765f-6fbf-4305-a2c2-3f80acfe6a00}</Project>
+      <Name>Yckj.YcFdyth.IService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yckj.YcFdyth.Model\Yckj.YcFdyth.Model.csproj">
+      <Project>{13174402-752f-48cf-8e66-0df3618647e3}</Project>
+      <Name>Yckj.YcFdyth.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Yckj.YcFdyth.Repository\Yckj.YcFdyth.Repository.csproj">
+      <Project>{930b94e0-3dee-4f7a-8318-ce57e2369d44}</Project>
+      <Name>Yckj.YcFdyth.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

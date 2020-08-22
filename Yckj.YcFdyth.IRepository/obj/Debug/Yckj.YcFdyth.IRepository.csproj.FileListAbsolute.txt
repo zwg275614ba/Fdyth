@@ -1,5 +1,10 @@
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.dll
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.pdb
-H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csprojResolveAssemblyReference.cache
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.dll
 H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.pdb
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.xml
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+H:\工作文件\项目\房地一体化wpf\wpf\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csprojResolveAssemblyReference.cache
