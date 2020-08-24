@@ -8,3 +8,7 @@ C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Comm
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.csproj.CoreCompileInputs.cache
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.dll
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Common\bin\Debug\Yckj.YcFdyth.Common.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Common\bin\Debug\Yckj.YcFdyth.Common.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Common\obj\Debug\Yckj.YcFdyth.Common.pdb

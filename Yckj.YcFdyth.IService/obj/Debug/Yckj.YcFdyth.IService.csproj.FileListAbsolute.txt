@@ -25,3 +25,15 @@ C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IS
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IService.csproj.CopyComplete
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IService.dll
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IService.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\Yckj.YcFdyth.IService.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\Yckj.YcFdyth.IService.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\Yckj.YcFdyth.IRepository.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\EntityFramework.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\Yckj.YcFdyth.IRepository.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\Yckj.YcFdyth.Model.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\EntityFramework.xml
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IService.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IService.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IService\obj\Debug\Yckj.YcFdyth.IService.csprojResolveAssemblyReference.cache

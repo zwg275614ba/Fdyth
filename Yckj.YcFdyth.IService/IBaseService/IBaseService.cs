@@ -12,55 +12,55 @@ namespace Yckj.YcFdyth.IService.IBaseService
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        Task<TEntity> GetModel(int key);
+        TEntity GetModel(int key);
         /// <summary>
         /// 通过条件获取实体
         /// </summary>
         /// <param name="whereLambda"></param>
         /// <returns></returns>
-        Task<TEntity> GetModel(Expression<Func<TEntity, bool>> whereLambda);
+        TEntity GetModel(Expression<Func<TEntity, bool>> whereLambda);
         /// <summary>
         /// 添加
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        Task AddAsync(TEntity entity);
+        void Add(TEntity entity);
         /// <summary>
         /// 批量添加
         /// </summary>
         /// <param name="entities"></param>
         /// <returns></returns>
-        Task AddAsync(List<TEntity> entities);
+        void Add(List<TEntity> entities);
         /// <summary>
         /// 编辑
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        Task UpdateAsync(TEntity entity);
+        void Update(TEntity entity);
         /// <summary>
         /// 主键删除
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        Task DeleteAsync(int key);
+        void Delete(int key);
         /// <summary>
         /// 实体删除
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        Task DeleteAsync(TEntity entity);
+        void Delete(TEntity entity);
         /// <summary>
         /// 批量删除
         /// </summary>
         /// <param name="entitys"></param>
         /// <returns></returns>
-        Task DeleteAsync(List<TEntity> entitys);
+        void Delete(List<TEntity> entitys);
         /// <summary>
         /// 获取列表
         /// </summary>
         /// <param name="whereLambda">条件</param>
         /// <returns></returns>
-        Task<IList<TEntity>> SelectAsync(Expression<Func<TEntity, bool>> whereLambda = null);
+        IList<TEntity> Select(Expression<Func<TEntity, bool>> whereLambda = null);
         /// <summary>
         /// 获取列表
         /// </summary>
@@ -69,7 +69,7 @@ namespace Yckj.YcFdyth.IService.IBaseService
         /// <param name="orderLambda">排序</param>
         /// <param name="isAsc">true 升序 false 降序</param>
         /// <returns></returns>
-        Task<IList<TEntity>> SelectAsync<s>(Expression<Func<TEntity, bool>> whereLambda = null, Expression<Func<TEntity, s>> orderLambda = null, bool isAsc = true);
+        IList<TEntity> Select<s>(Expression<Func<TEntity, bool>> whereLambda = null, Expression<Func<TEntity, s>> orderLambda = null, bool isAsc = true);
         /// <summary>
         /// 分页
         /// </summary>

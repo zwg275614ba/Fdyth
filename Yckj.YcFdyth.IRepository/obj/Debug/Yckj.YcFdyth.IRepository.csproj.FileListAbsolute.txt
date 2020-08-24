@@ -21,3 +21,13 @@ C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csproj.CopyComplete
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.dll
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.IRepository.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\Yckj.YcFdyth.Model.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\EntityFramework.xml
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.csprojResolveAssemblyReference.cache
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.IRepository\obj\Debug\Yckj.YcFdyth.IRepository.pdb

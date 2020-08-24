@@ -39,77 +39,77 @@ namespace Yckj.YcFdyth.Repository.BaseRepository
         /// </summary>
         /// <param name="entities"></param>
         /// <returns></returns>
-        public async Task AddAsync(List<TEntity> entities)
+        public  void Add(List<TEntity> entities)
         {
             _dbSet.AddRange(entities);
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChangesAsync();
         }
         /// <summary>
         /// 添加
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task AddAsync(TEntity entity)
+        public  void Add(TEntity entity)
         {
             _dbSet.Add(entity);
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChangesAsync();
         }
 
-        public async Task Commit()
+        public  void Commit()
         {
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChanges();
         }
         /// <summary>
         /// 删除
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task DeleteAsync(TEntity entity)
+        public  void Delete(TEntity entity)
         {
             _dbSet.Remove(entity);
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChangesAsync();
         }
         /// <summary>
         /// 删除
         /// </summary>
         /// <param name="entitys"></param>
         /// <returns></returns>
-        public async Task DeleteAsync(List<TEntity> entitys)
+        public  void Delete(List<TEntity> entitys)
         {
             _dbSet.RemoveRange(entitys);
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChangesAsync();
         }
         /// <summary>
         /// 删除
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public async Task DeleteAsync(TKey key)
+        public  void Delete(TKey key)
         {
             var entity = _dbSet.Find(key);
             if (entity != null)
                 _dbSet.Remove(entity);
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChangesAsync();
         }
         /// <summary>
         /// 编辑
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task UpdateAsync(TEntity entity)
+        public  void Update(TEntity entity)
         {
             _dbSet.Attach(entity);
             dbcontext.Entry<TEntity>(entity).State = EntityState.Modified;
-            await dbcontext.SaveChangesAsync();
+             dbcontext.SaveChangesAsync();
         }
         /// <summary>
         /// 获取实体
         /// </summary>
         /// <param name="whereLambda"></param>
         /// <returns></returns>
-        public async Task<TEntity> GetModel(Expression<Func<TEntity, bool>> whereLambda)
+        public  TEntity GetModel(Expression<Func<TEntity, bool>> whereLambda)
         {
-            return await _dbSet.FirstOrDefaultAsync(whereLambda);
+            return  _dbSet.FirstOrDefault(whereLambda);
         }
 
         /// <summary>
@@ -117,9 +117,9 @@ namespace Yckj.YcFdyth.Repository.BaseRepository
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
-        public async Task<TEntity> GetModel(TKey key)
+        public  TEntity GetModel(TKey key)
         {
-            return await _dbSet.FindAsync(key);
+            return  _dbSet.Find(key);
         }
 
         /// <summary>
@@ -127,15 +127,15 @@ namespace Yckj.YcFdyth.Repository.BaseRepository
         /// </summary>
         /// <param name="whereLambda"></param>
         /// <returns></returns>
-        public async Task<IList<TEntity>> SelectAsync(Expression<Func<TEntity, bool>> whereLambda = null)
+        public  IList<TEntity> Select(Expression<Func<TEntity, bool>> whereLambda = null)
         {
             IList<TEntity> list;
             if (whereLambda == null)
             {
-                list = await _dbSet.ToListAsync();
+                list =  _dbSet.ToList();
                 return list;
             }
-            list = await _dbSet.Where(whereLambda).ToListAsync();
+            list =  _dbSet.Where(whereLambda).ToList();
             return list;
         }
         /// <summary>
@@ -146,20 +146,20 @@ namespace Yckj.YcFdyth.Repository.BaseRepository
         /// <param name="orderLambda"></param>
         /// <param name="isAsc"></param>
         /// <returns></returns>
-        public async Task<IList<TEntity>> SelectAsync<s>(Expression<Func<TEntity, bool>> whereLambda = null, Expression<Func<TEntity, s>> orderLambda = null, bool isAsc = true)
+        public  IList<TEntity> Select<s>(Expression<Func<TEntity, bool>> whereLambda = null, Expression<Func<TEntity, s>> orderLambda = null, bool isAsc = true)
         {
             IList<TEntity> list;
             if (whereLambda == null)
             {
-                list = await _dbSet.ToListAsync();
+                list =  _dbSet.ToList();
                 return list;
             }
             if (isAsc && orderLambda != null)
-                list = await _dbSet.Where(whereLambda).OrderBy(orderLambda).ToListAsync();
+                list =  _dbSet.Where(whereLambda).OrderBy(orderLambda).ToList();
             else if (orderLambda != null)
-                list = await _dbSet.Where(whereLambda).OrderByDescending(orderLambda).ToListAsync();
+                list =  _dbSet.Where(whereLambda).OrderByDescending(orderLambda).ToList();
             else
-                list = await _dbSet.Where(whereLambda).ToListAsync();
+                list =  _dbSet.Where(whereLambda).ToList();
             return list;
         }
         /// <summary>

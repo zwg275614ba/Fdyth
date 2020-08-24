@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{D684F7FF-9FCD-455B-B156-CBAAFB098491}"
+	ProjectSection(SolutionItems) = preProject
+		lib\MaterialDesignColors.dll = lib\MaterialDesignColors.dll
+		lib\MaterialDesignThemes.Wpf.dll = lib\MaterialDesignThemes.Wpf.dll
+		lib\System.Windows.Interactivity.dll = lib\System.Windows.Interactivity.dll
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{57A2CBE8-B6AB-4414-9DFA-C89E7D585134}"
 EndProject

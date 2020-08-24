@@ -22,3 +22,14 @@ C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.csproj.CopyComplete
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.dll
 C:\Users\zwg\Source\Repos2\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.dll.config
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\Yckj.YcFdyth.Model.pdb
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.xml
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\zh-Hans\EntityFramework.resources.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.dll
+C:\Users\zwg\Source\Repos\Fdyth\Yckj.YcFdyth.Model\obj\Debug\Yckj.YcFdyth.Model.pdb

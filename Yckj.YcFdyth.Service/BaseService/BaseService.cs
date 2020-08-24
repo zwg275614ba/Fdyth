@@ -10,49 +10,49 @@ namespace Yckj.YcFdyth.Service.BaseService
     public class BaseService<TEntity> : IBaseService<TEntity> where TEntity : class, new()
     {
         public IBaseRepository<TEntity, int> CurrentRepository { get; set; }
-        public async Task AddAsync(List<TEntity> entities)
+        public void Add(List<TEntity> entities)
         {
-            await CurrentRepository.AddAsync(entities);
+            CurrentRepository.Add(entities);
         }
 
-        public async Task AddAsync(TEntity entity)
+        public void Add(TEntity entity)
         {
-            await CurrentRepository.AddAsync(entity);
+            CurrentRepository.Add(entity);
         }
 
-        public async Task DeleteAsync(TEntity entity)
+        public void Delete(TEntity entity)
         {
-            await CurrentRepository.DeleteAsync(entity);
+            CurrentRepository.Delete(entity);
         }
 
-        public async Task DeleteAsync(List<TEntity> entitys)
+        public void Delete(List<TEntity> entitys)
         {
-            await CurrentRepository.DeleteAsync(entitys);
+            CurrentRepository.Delete(entitys);
         }
 
-        public async Task DeleteAsync(int key)
+        public void Delete(int key)
         {
-            await CurrentRepository.DeleteAsync(key);
+            CurrentRepository.Delete(key);
         }
 
-        public async Task<TEntity> GetModel(Expression<Func<TEntity, bool>> whereLambda)
+        public TEntity GetModel(Expression<Func<TEntity, bool>> whereLambda)
         {
-            return await CurrentRepository.GetModel(whereLambda);
+            return CurrentRepository.GetModel(whereLambda);
         }
 
-        public async Task<TEntity> GetModel(int key)
+        public TEntity GetModel(int key)
         {
-            return await CurrentRepository.GetModel(key);
+            return CurrentRepository.GetModel(key);
         }
 
-        public async Task<IList<TEntity>> SelectAsync(Expression<Func<TEntity, bool>> whereLambda = null)
+        public IList<TEntity> Select(Expression<Func<TEntity, bool>> whereLambda = null)
         {
-            return await CurrentRepository.SelectAsync(whereLambda);
+            return CurrentRepository.Select(whereLambda);
         }
 
-        public async Task<IList<TEntity>> SelectAsync<s>(Expression<Func<TEntity, bool>> whereLambda = null, Expression<Func<TEntity, s>> orderLambda = null, bool isAsc = true)
+        public IList<TEntity> Select<s>(Expression<Func<TEntity, bool>> whereLambda = null, Expression<Func<TEntity, s>> orderLambda = null, bool isAsc = true)
         {
-            return await CurrentRepository.SelectAsync(whereLambda, orderLambda, isAsc);
+            return CurrentRepository.Select(whereLambda, orderLambda, isAsc);
         }
 
         public IList<TEntity> SelectPageAsync<s>(int pageIndex, int pageSize, out int TotalCount, Expression<Func<TEntity, bool>> whereLambda, Expression<Func<TEntity, s>> orderLambda, bool isAsc)
@@ -60,9 +60,9 @@ namespace Yckj.YcFdyth.Service.BaseService
             return CurrentRepository.SelectPageAsync(pageIndex, pageSize, out TotalCount, whereLambda, orderLambda, isAsc);
         }
 
-        public async Task UpdateAsync(TEntity entity)
+        public void Update(TEntity entity)
         {
-            await CurrentRepository.UpdateAsync(entity);
+            CurrentRepository.Update(entity);
         }
     }
 }
