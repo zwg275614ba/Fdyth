@@ -41,8 +41,15 @@ namespace YcFdyth.Client
                 }
                 this.labMsg.Text = "登录中...";
                 var password = Md5.md5(txtPwd.Password, 32);
-                var entity =  UnityConfig.用户表Service.GetModel(l => l.LoginName == this.txtAccountName.ToString() && l.LoginPwd == password);
-              
+                var entity = UnityConfig.用户表Service.GetModel(l => l.LoginName == this.txtAccountName.Text.ToString() && l.LoginPwd == password);
+                if (entity == null)
+                {
+                    this.labMsg.Text = "输入的用户名或密码错误";
+                }
+                else
+                {
+
+                }
             }
             catch (Exception ex)
             {
